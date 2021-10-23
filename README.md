@@ -44,14 +44,14 @@ resync_srt.py --offset 5000 sub.srt
 resync_srt.py --offset -3000 sub.srt
 ```
 
-If you want change timestamps by multiple with rate, use `--rate` option.
+If you want to change timestamps by multiplication, use `--rate` option.
 
 ```bash
 # change speed by multiplication
 resync_srt.py --rate 1.2 sub.srt
 ```
 
-And you can use both options at once. Now you can get a new file `<original filename>.resync.srt`.
+And you can use both options at once. Now you will get a new file `<original filename>.resync.srt`.
 
 # License
 
