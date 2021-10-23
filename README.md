@@ -4,12 +4,10 @@ RE:Sync SRT
 ![Language](https://shields.io/github/languages/top/nuridol/resync_srt)
 ![License](https://shields.io/github/license/nuridol/resync_srt)
 
-A script to fix out of sync subtitles.
-
 Note
 ----
 
-This is the simple script to resync SRT timestamps.
+This is the simple script to resynchronize SRT timestamps.
 
 Requirements
 ------------
@@ -53,7 +51,7 @@ If you want change timestamps by multiple with rate, use `--rate` option.
 resync_srt.py --rate 1.2 sub.srt
 ```
 
-And you can use both options at once.
+And you can use both options at once. Now you can get a new file `<original filename>.resync.srt`.
 
 # License
 
